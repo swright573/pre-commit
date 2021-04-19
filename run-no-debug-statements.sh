@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 pdb_check=$(git grep pdb -- '*.py')
 if [ ${#pdb_check} -gt 0 ]
