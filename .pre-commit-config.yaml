@@ -1,4 +1,5 @@
 repos:
-- repo: local
+- repo: https://github.com/swright573/pre-commit-hooks
+  rev: 1.0.1
   hooks:
   - id:no-debug-statements
